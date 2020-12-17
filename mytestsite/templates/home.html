@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CiroTech</title>
+{% load static %}
+{% include 'head.html' %}
+
+
+</head>
+<body>
+<div id="wrapper">
+<header id="header"> 
+{% include 'header.php' %}
+
+</header>
+{% include 'nav.php' %}
+<main class="contenido">
+<div class="row">
+<div class="box-inrow">
+<img class="img-in-box" style=""src="{% static '/media/codigo.jpg' %}" />
+
+<h2 class="title">Desarrollo Blog y E-commerce </h2>
+<div class="contenido-box"><b>Especializado en el desarrollo de Blog y E-commerce.</b><br>
+Desarrollo E-commerce con CMS (Magento,Prestashop,Bigcommerce,Shopify,Yii PHP Framework) - tema y plugin personalizado a medida del cliente.
+<br>Desarrollo Paginas Personales / Blogs / con Panel de Administracion personalizado a medida del cliente.
+<a href="contacto.php" class="myButton">CONTACTAME</a>
+
+</div>
+
+</div>
+
+
+<div class="box-inrow">
+
+<img class="img-in-box" style=""src="{% static '/media/seo.jpg' %}" alt="Campañas Publicitarias"/>
+<h2 class="title">Gestion Campañas Publicitarias</h2>
+<div class="contenido-box">
+<b>¿Quiere publicitar tu negocio y no sabes como hacer?</b><br>
+No te preocupes yo me encargo de todo.<br>
+Desde la creacion de la pagina web hasta el posicionamento en los motores de busqueda.<br>
+Puedo ayudarte a encontrar tu usuario BUYER (tu cliente ideal) o tu publico target, cada cliente es unico y hay que utilizar una estrategia coherente.
+Tengo mas de 2 años de experiencia en la gestion de campaña de marketing SEM y campañas en redes sociales.
+<a href="contacto.php" class="myButton">CONTACTAME</a>
+
+</div>
+
+</div>
+
+<div class="box-inrow">
+
+<img class="img-in-box" style=""src="{% static '/media/posicion.jpg'%}" />
+<h2 class="title">Posicionamento SEO</h2>
+{% block fragment1 %}
+{{ view.current_datetime}}
+{% endblock %}
+<div class="contenido-box"><b>¡Posiciona tu web en los buscadores de forma duradera!</b><br>
+Impacta tu audiencia con anuncios relevantes que te diferencian de la competencia.<br>
+Puedo ayudarte a mejorar la visibilidad organica de tu negocio analizando tus usuarios y optimizando tu pagina web.
+<a href="contacto.php" class="myButton">CONTACTAME</a>
+
+</div>
+</div>
+<div class="box-inrow">
+<img class="img-in-box" style=""src="{% static '/media/ux.jpg'%}" />
+
+<h2 class="title">Diseño UX/UI</h2>
+<div class="contenido-box">
+<b>Diseño de experiencias unicas para tu audiencia.</b><br>
+La UX(Experiencia de usuario) es una disciplina que trata de lo que siente el usuario cuando interactua con tu producto/servicio digital.<br>
+Paso 1: Investigación Buyer Persona.<br>
+Paso 2: Diseño UX<br>
+Paso 3: Diseño UI<br>
+Paso 4: Monitorizacion y optimizacion de la estrategia<br>
+<a href="contacto.php" class="myButton">CONTACTAME</a>
+
+</div>
+
+
+
+</div>
+</div>
+
+</main>
+{% include 'footer.php' %}
+</div>
+</body>
+</html>

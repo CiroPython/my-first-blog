@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'MenuFont';
+  src: url('/prova/fonts/Aldrich-Regular.ttf'); 
+}
+@font-face {
+  font-family: 'BoxFont';
+  src: url('/prova/fonts/Karla-BoldItalic.ttf'); 
+}
+@font-face {
+  font-family: 'TextFont';
+  src: url('/prova/fonts/Karla-Light.ttf'); 
+}
+@font-face {
+  font-family: 'CopyrightFont';
+  src: url('/prova/fonts/Rationale-Regular.ttf'); 
+}
+.display-great{
+display:none;
+}
+.display-medium{
+	display:none;
+}
+.display-mini{
+	display:none;
+}
+.mini-menu{
+	display:none;
+}
+.menu_bar{
+	display:none;
+}
+body{
+background-color: #f8f8f8;
+font-family:TextFont;
+
+}
+.box-inrow{
+	color:white;
+}
